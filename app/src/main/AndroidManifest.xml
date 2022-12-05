@@ -35,6 +35,8 @@
                 android:value="" />
 
         </activity>
+        <activity android:name=".PhotoPageActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
 
         <activity
             android:name=".MainActivity"
