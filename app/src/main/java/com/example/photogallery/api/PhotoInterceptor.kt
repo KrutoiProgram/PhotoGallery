@@ -5,7 +5,7 @@ import okhttp3.Interceptor
 import okhttp3.Request
 import okhttp3.Response
 
-private const val API_KEY = "вашApiКлюч"
+private const val API_KEY = "ccbb38147a78f947956b3d3964884f64"
 class PhotoInterceptor : Interceptor {
     override fun intercept(chain:
                            Interceptor.Chain): Response {

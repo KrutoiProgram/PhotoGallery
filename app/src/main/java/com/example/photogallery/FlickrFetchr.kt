@@ -57,10 +57,8 @@ class FlickrFetchr {
                 response: Response<FlickrResponse>
             ) {
                 Log.d(TAG, "Response received")
-                val flickrResponse:
-                        FlickrResponse? = response.body()
-                val photoResponse:
-                        PhotoResponse? = flickrResponse?.photos
+                val flickrResponse: FlickrResponse? = response.body()
+                val photoResponse: PhotoResponse? = flickrResponse?.photos
                 var galleryItems:
                         List<GalleryItem> = photoResponse?.galleryItems
                     ?: mutableListOf()
